@@ -6,7 +6,8 @@
 }
 
 body{
-    height: 100vh;background-image: url("assets/bg.jpeg");
+    height: 100vh;
+    background-image: url("assets/bg.jpeg");
     height: 1250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,7 +22,7 @@ header {
     width: 100%;
     background-color: #f4eb34;
     position: relative;
-    padding: 1.2em;
+    padding: 1.5em;
 }
 
 p{
@@ -117,26 +118,26 @@ body{
 .blog-heading span{
     color: #1F8478;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 850;
 }
 .blog-heading h3{
-    font-size: 2.4rem;
-    color: #72afa6;
+    font-size: 2.0rem;
+    color: #1F8478;
     font-weight: 700;
 }
 .blog-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 20px;
+    margin: 0px 0px;
     flex-wrap: wrap;
 }
  
 .blog-box{
-    width:350px;
+    width:800px;
     background-color: #ffffff;
     border: 6px solid #f2f4be;
-    margin: 20px 20px;
+    margin: 0px 0px;
  
 }
 .blog-img{
@@ -150,26 +151,24 @@ body{
     object-position: center;
 }
 .blog-text{
-    padding: 15px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
 }
 
 .blog-text .blog-title{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #72afa6;
 }
 .blog-text p{
     color: #000000c6;
-    font-size: 1.0rem;
+    font-size: 1.1rem;
     font-weight: 500;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 15px 0px;
+    margin: 13px 13px;
 }
 .blog-text a{
     color: #000000e2;
@@ -179,7 +178,7 @@ body{
     transition: all ease 0.3s;
 }
 
- 
+
  
 @media(max-width:1250px){
  .logo{
